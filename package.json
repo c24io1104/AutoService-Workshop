@@ -1,31 +1,29 @@
 {
-  "name": "autoservice-workshop",
+  "name": "autoserv",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "package for autoservice",
+  "keywords": [
+    "ajil"
+  ],
+  "homepage": "https://github.com/c24io1104/AutoService-Workshop#readme",
+  "bugs": {
+    "url": "https://github.com/c24io1104/AutoService-Workshop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c24io1104/AutoService-Workshop.git"
+  },
+  "license": "UNLICENSED",
+  "author": "Munhdelger",
+  "type": "module",
+  "main": "tusul",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "auto"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "@prisma/client": "^6.6.0",
-    "class-transformer": "^0.5.1",
-    "class-validator": "^0.14.1",
-    "dotenv": "^16.5.0",
+    "@prisma/client": "^6.7.0",
+    "body-parser": "^2.2.0",
     "express": "^5.1.0",
-    "pg": "^8.15.6",
-    "routing-controllers": "^0.11.2",
     "twilio": "^5.5.2"
-  },
-  "devDependencies": {
-    "@types/express": "^5.0.1",
-    "@types/node": "^22.15.2",
-    "nodemon": "^3.1.10",
-    "prisma": "^6.6.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
   }
 }
